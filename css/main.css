@@ -102,3 +102,41 @@ width: 100%;
 margin: 1em;
 
 }
+
+/* More Information section style */
+.more{
+margin: 4em 0;
+padding: 1em;
+position: relative;
+}
+.more h1{
+color:#10abb8;
+margin: 2em;
+}
+.more h3{
+text-align: center;
+}
+.more img{
+display: block;
+margin: auto;    
+height: 100%;
+width: auto;
+border-radius: 50%
+}
+.more span{
+display: block;
+color: #888;
+position: absolute;
+left: 115px;
+}
+.more .desc{
+padding: 2em;
+border-left:4px solid #10abb8;
+}
+.more .desc h3{
+color: #10abb8;
+}
+.more .desc p{
+line-height:2;
+color:#888;
+}
