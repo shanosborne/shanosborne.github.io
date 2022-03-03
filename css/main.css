@@ -27,7 +27,6 @@ background-attachment: fixed;
 background-size: contain;
 background-position: center;
 }
-    
 .overlay{
 position: absolute;
 min-height: 100%;
@@ -43,7 +42,6 @@ top: 30%;
 left: 20%;
 margin: auto;
 padding: 2em;
-
 }
 .description h1{
 color:#10abb8 ;
@@ -97,6 +95,7 @@ color:#888;
 /* Portfolio section style */
 .portfolio{
 margin: 4em 0;
+padding: 1em;
 position: relative; 
 }
 .portfolio h1{
