@@ -1,3 +1,10 @@
+/* Add fonts */
+@import url('https://fonts.googleapis.com/css?family=Work Sans');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Work Sans";
+   }
+
 /* Navbar section style */
 .navbar{ background:#10abb8; }
 
