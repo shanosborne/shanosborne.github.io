@@ -2,23 +2,33 @@
 @import url('https://fonts.googleapis.com/css?family=Work Sans');
 
 html,h1,h2,h3,h4,h5,h6,a{
-    font-family: "Work Sans";
-   }
+font-family: "Work Sans";
+}
 
 /* Navbar section style */
-.navbar{ background:#10abb8; }
-
-.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer; }
-
-.nav-link{ margin-right: 1em !important; }
-
-.nav-link:hover{ background: #f4f4f4; color: #10abb8; }
-
-.navbar-collapse{ justify-content: flex-end; }
-
-.navbar-toggler{ background:#fff !important; }
-
-.navbar-collapse{ justify-content: flex-end; }
+.navbar{ 
+background:#10abb8; 
+}
+.nav-link , .navbar-brand{ 
+color: #f4f4f4; 
+cursor: pointer; 
+}
+.nav-link{ 
+margin-right: 1em !important; 
+}
+.nav-link:hover{ 
+background: #f4f4f4; 
+color: #10abb8; 
+}
+.navbar-collapse{ 
+justify-content: flex-end; 
+}
+.navbar-toggler{ 
+background:#fff !important; 
+}
+.navbar-collapse{ 
+justify-content: flex-end; 
+}
 
 /* Header section style */
 .header{
