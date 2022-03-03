@@ -103,11 +103,19 @@ position: relative;
 color:#10abb8;
 margin: 2em; 
 }
-.portfolio img{
-height: 15rem;
+.portfolio .card{
+box-shadow: 0 0 20px #ccc;
+}
+.portfolio .card img{
 width: 100%;
-margin: 1em;
-
+height: 16em;
+}
+.portfolio .card-title{
+color:#10abb8;
+    
+}
+.portfolio .card-body{
+padding: 1em;
 }
 
 /* More Information section style */
