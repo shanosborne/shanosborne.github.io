@@ -36,15 +36,18 @@ background-image: url('../images/pm_selfie_compressed.png');
 background-attachment: fixed;
 background-size: contain;
 background-position: center;
+position: relative;
+display: flex;
 }
 
-.overlay{
+.header::before{
+content:"";
 position: absolute;
 min-height: 100%;
 min-width: 100%;
 left: 0;
 top: 0;
-background: rgba(244, 244, 244, 0.79);
+background: rgba(255, 255, 255, 0.75);
 }
 
 .description{
@@ -127,10 +130,12 @@ color:#10abb8;
 padding: 1em;
 }
 .portfolio .img-fluid{
-    border-width: 15px;
-    border-style: solid;
-    border-color: #ffff;
-
+border-width: 15px;
+border-style: solid;
+border-color: #ffff;
+}
+#pm-image{
+filter: opacity(25%);
 }
 
 /* More Information section style */
