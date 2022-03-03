@@ -1,4 +1,4 @@
-/*Navbar section style*/
+/* Navbar section style */
 .navbar{ background:#10abb8; }
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer; }
@@ -13,7 +13,7 @@
 
 .navbar-collapse{ justify-content: flex-end; }
 
-/*Header section style*/
+/* Header section style */
 .header{
 background-image: url('../images/pm_selfie_compressed.png');
 background-attachment: fixed;
@@ -54,3 +54,35 @@ background:#10abb8;
 color:#fff;
 }
    
+/* About section style */
+.about{
+margin: 4em 0;
+padding: 1em;
+position: relative;
+}
+.about h1{
+color:#10abb8;
+margin: 2em;
+}
+.about img{
+height: auto;
+width: 100%;
+border-radius: 50%
+}
+.about span{
+display: block;
+color: #888;
+position: absolute;
+left: 115px;
+}
+.about .desc{
+padding: 2em;
+border-left:4px solid #10abb8;
+}
+.about .desc h3{
+color: #10abb8;
+}
+.about .desc p{
+line-height:2;
+color:#888;
+}
