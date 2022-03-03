@@ -27,6 +27,7 @@ background-attachment: fixed;
 background-size: contain;
 background-position: center;
 }
+
 .overlay{
 position: absolute;
 min-height: 100%;
@@ -110,11 +111,16 @@ width: 100%;
 height: 16em;
 }
 .portfolio .card-title{
-color:#10abb8;
-    
+color:#10abb8;   
 }
 .portfolio .card-body{
 padding: 1em;
+}
+.portfolio .img-fluid{
+    border-width: 15px;
+    border-style: solid;
+    border-color: #ffff;
+
 }
 
 /* More Information section style */
