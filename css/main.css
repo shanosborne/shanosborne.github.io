@@ -86,3 +86,19 @@ color: #10abb8;
 line-height:2;
 color:#888;
 }
+
+/* Portfolio section style */
+.portfolio{
+margin: 4em 0;
+position: relative; 
+}
+.portfolio h1{
+color:#10abb8;
+margin: 2em; 
+}
+.portfolio img{
+height: 15rem;
+width: 100%;
+margin: 1em;
+
+}
