@@ -1,10 +1,10 @@
-// Add scroll effect to header
+// Header's scrolling effect
 $(document).ready(function(){
     $('.header').height($(window).height());
     
    })
 
-// Add button scroll to navbar
+// Navbar button's scroll
 $(".navbar a").click(function(){
     $("html, body").animate({
      scrollTop:$("#" + $(this).data("value")).offset().top

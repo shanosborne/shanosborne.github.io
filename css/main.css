@@ -101,6 +101,9 @@ border-left:4px solid #10abb8;
 .about .desc h3{
 color: #10abb8;
 }
+.about .desc h6{
+color: #10abb8;
+}
 .about .desc p{
 line-height:2;
 color:#888;
