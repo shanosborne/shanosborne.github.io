@@ -71,7 +71,8 @@ line-height: 1.5;
 border:1px  solid #10abb8;
 background:#10abb8;
 color:#fff;
-z-index: 55
+z-index: 55;
+display: block; 
 }
    
 /* About section style */
@@ -79,7 +80,7 @@ z-index: 55
 margin: 4em 0;
 padding: 1em;
 position: relative;
-display:block; 
+display: block; 
 }
 .about h1{
 color:#10abb8;
