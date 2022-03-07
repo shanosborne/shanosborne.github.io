@@ -59,11 +59,11 @@ padding: 2em;
 }
 .description h1{
 color:#10abb8 ;
-font-size: 45px;
+font-size: 350%;
 }
 .description p{
 color:#666;
-font-size: 25px;
+font-size: 50%;
 width: 50%;
 line-height: 1.5;
 }
