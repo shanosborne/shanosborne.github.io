@@ -37,7 +37,7 @@ background-attachment: fixed;
 background-size: contain;
 background-position: center;
 position: relative;
-display: flex;
+display: block;
 }
 
 .header::before{
@@ -71,8 +71,6 @@ line-height: 1.5;
 border:1px  solid #10abb8;
 background:#10abb8;
 color:#fff;
-z-index: 55;
-display: block; 
 }
    
 /* About section style */
@@ -80,7 +78,6 @@ display: block;
 margin: 4em 0;
 padding: 1em;
 position: relative;
-display: block; 
 }
 .about h1{
 color:#10abb8;
