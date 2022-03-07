@@ -79,6 +79,7 @@ z-index: 55
 margin: 4em 0;
 padding: 1em;
 position: relative;
+display:block; 
 }
 .about h1{
 color:#10abb8;
