@@ -37,7 +37,7 @@ background-attachment: fixed;
 background-size: contain;
 background-position: center;
 position: relative;
-display: block;
+display: flex;
 }
 
 .header::before{
@@ -68,6 +68,7 @@ width: 50%;
 line-height: 1.5;
 }
 .description button{
+position: relative;
 border:1px  solid #10abb8;
 background:#10abb8;
 color:#fff;
