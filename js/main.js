@@ -5,12 +5,14 @@ $(document).ready(function(){
    })
 
 // Navbar button's scroll
-$(".navbar a").click(function(){
-    $("html, body").animate({
-     scrollTop:$("#" + $(this).data("value")).offset().top
-    },1000)
-    
-    })
+$(document).ready(function() {
+    $(".navbar a").on('click touchstart', function() {
+        $("html, body").animate({
+        scrollTop:$("#" + $(this).data("value")).offset().top
+        },1000)
+        
+        });
+});
 
 // Set "See More" button to work on desktop or mobile using touchstart
 $(document).ready(function() {
