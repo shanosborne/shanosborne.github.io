@@ -11,3 +11,10 @@ $(".navbar a").click(function(){
     },1000)
     
     })
+
+// Set "See More" button to work on desktop or mobile using touchstart
+$(document).ready(function() {
+    $('#see-more-btn').on('click touchstart', function() {
+        window.location.href='#about';
+      });
+});
