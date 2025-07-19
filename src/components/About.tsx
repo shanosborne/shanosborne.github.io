@@ -5,7 +5,7 @@ import { COLOR_PRIMARY } from "../theme";
 const About = (): ReactElement => {
     return <Box>
         <Typography variant="h3">About</Typography>
-        <Stack direction="row" spacing={3}>
+        <Stack direction={{ xs: "column", sm: "row" }} spacing={3}>
             <Avatar
                 alt="Shannon Osborne"
                 src="src/assets/profile.png"
@@ -16,7 +16,7 @@ const About = (): ReactElement => {
                 orientation="vertical"
                 flexItem
                 aria-hidden="true"
-                sx={{ borderRightWidth: 4, borderColor: COLOR_PRIMARY }}
+                sx={{ display: { xs: 'none', sm: 'flex' }, borderRightWidth: 4, borderColor: COLOR_PRIMARY }}
             />
             <Stack direction="column" spacing={2}>
                 <Typography variant="body1">

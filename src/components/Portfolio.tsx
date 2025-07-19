@@ -174,7 +174,7 @@ const Portfolio = (): ReactElement => {
         <Typography variant="h3">Portfolio</Typography>
         <Grid container spacing={3}>
             {portfolioEntries.map((entry: IPortfolioEntry) => (
-                <Grid key={entry.title} size={6}>
+                <Grid key={entry.title} size={{ xs: 12, sm: 6 }}>
                     <PortfolioEntry {...entry} />
                 </Grid>
             ))}

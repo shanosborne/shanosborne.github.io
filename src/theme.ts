@@ -1,7 +1,8 @@
 import { createTheme } from "@mui/material";
 
-export const COLOR_PRIMARY = "#10abb8"
-export const COLOR_SECONDARY = "#0a3e42"
+export const COLOR_PRIMARY = "#3b7e9bff";
+export const COLOR_SECONDARY = "#091419ff";
+export const COLOR_GRAY = "#767676";
 export const COLOR_WHITE = "#ffffff";
 
 export const PortfolioTheme = createTheme({
@@ -33,27 +34,27 @@ export const PortfolioTheme = createTheme({
     typography: {
         fontFamily: "Work Sans",
         h1: {
-            fontSize: '75px'
+            fontSize: '5rem',
+            fontWeight: '400'
         },
         h2: {
-            fontSize: '50px',
+            fontSize: '2.75rem'
+        },
+        h3: {
+            fontSize: '3.1rem',
             paddingBottom: '30px',
             color: COLOR_PRIMARY,
         },
-        h3: {
-            fontSize: '24px',
-            color: COLOR_PRIMARY
-            // margin: 2em;
-        },
         h4: {
-            fontSize: '16px',
+            fontSize: '1.5rem',
+            color: COLOR_PRIMARY,
+        },
+        h5: {
+            fontSize: '1rem',
             fontWeight: '600',
         },
-        subtitle1: {
-            fontSize: '40px'
-        },
         body1: {
-            fontSize: '16px'
+            fontSize: '1rem',
         }
     }
 });

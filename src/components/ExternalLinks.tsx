@@ -32,7 +32,13 @@ const externalLinks: IExternalLink[] = [
 const LinkIcon: React.FC<IExternalLink> = (link): ReactElement => {
     return <Tooltip title={`${link.desc} on ${link.name}`}>
         <IconButton component="a" href={link.href} target="_blank" rel="noopener noreferrer">
-            <Avatar alt={link.name} src={link.icon} sx={{ width: "125px", height: "125px" }}>
+            <Avatar
+                alt={link.name}
+                src={link.icon}
+                sx={{
+                    width: { xs: '80px', sm: "125px" },
+                    height: { xs: '80px', sm: "125px" }
+                }}>
             </Avatar>
         </IconButton>
     </Tooltip>
@@ -43,14 +49,14 @@ const ExternalLinks = (): ReactElement => {
     return <Box>
         <Typography variant="h3">More Information</Typography>
         <Typography>You can learn more about me and my work in the following places. You can also reach out with any questions.</Typography>
-        <Grid container sx={{ mt: 5 }}>
+        <Grid container spacing={2} sx={{ mt: 5 }}>
             {externalLinks.map((link: IExternalLink) => (
                 <Grid size={4} key={link.name} sx={{ textAlign: 'center' }}>
                     <LinkIcon {...link} />
                 </Grid>
             ))}
         </Grid>
-    </Box>
+    </Box >
 }
 
 export default ExternalLinks;
