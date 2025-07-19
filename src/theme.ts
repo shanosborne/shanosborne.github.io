@@ -17,6 +17,13 @@ export const PortfolioTheme = createTheme({
                 },
             }
         },
+        MuiTooltip: {
+            styleOverrides: {
+                tooltip: {
+                    fontSize: '12px'
+                },
+            }
+        },
     },
     palette: {
         primary: { main: COLOR_PRIMARY },
@@ -33,14 +40,20 @@ export const PortfolioTheme = createTheme({
             paddingBottom: '30px',
             color: COLOR_PRIMARY,
         },
-        h5: {
-            fontSize: '22px'
+        h3: {
+            fontSize: '24px',
+            color: COLOR_PRIMARY
+            // margin: 2em;
+        },
+        h4: {
+            fontSize: '16px',
+            fontWeight: '600',
         },
         subtitle1: {
             fontSize: '40px'
         },
         body1: {
-            fontSize: '18px'
+            fontSize: '16px'
         }
     }
 });

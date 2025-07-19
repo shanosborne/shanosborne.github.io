@@ -29,7 +29,7 @@ const Header = (): ReactElement => {
     <AppBar>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <IconButton component="a" href="#">
+          <IconButton component="a" href="#" aria-label="home">
             <HomeIcon fontSize="large" color="info" />
           </IconButton>
           <Box justifyContent="end" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -48,7 +48,7 @@ const Header = (): ReactElement => {
           <Box justifyContent="end" sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
+              aria-label="menu"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}

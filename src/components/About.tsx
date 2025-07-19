@@ -4,7 +4,7 @@ import { COLOR_PRIMARY } from "../theme";
 
 const About = (): ReactElement => {
     return <Box>
-        <Typography variant="h2">About</Typography>
+        <Typography variant="h3">About</Typography>
         <Stack direction="row" spacing={3}>
             <Avatar
                 alt="Shannon Osborne"

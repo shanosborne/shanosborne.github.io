@@ -22,7 +22,7 @@ const Site = (): ReactElement => {
             }}
         >
         </Box>
-        <Stack gap={25} sx={{ px: 20, pt: 12, pb: 25 }}>
+        <Stack spacing={25} sx={{ px: 20, pb: 25 }}>
             <div id="home" className="section"><Marquee /></div>
             <div id="about" className="section"><About /></div>
             <div id="portfolio" className="section"><Portfolio /></div>

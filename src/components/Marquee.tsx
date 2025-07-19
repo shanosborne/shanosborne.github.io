@@ -12,7 +12,7 @@ const Marquee = (): ReactElement => {
         // color: 'white',
     }}>
         <Typography variant="h1" color={COLOR_PRIMARY}>SHANNON OSBORNE</Typography>
-        <Typography variant="subtitle1" color={COLOR_SECONDARY} sx={{ maxWidth: '600px' }}>A summary of my experience in software engineering & science</Typography>
+        <Typography variant="h2" color={COLOR_SECONDARY} sx={{ maxWidth: '600px' }}>A summary of my experience in software engineering & science</Typography>
         <Button variant="contained" sx={{ mt: 12 }} href="#about">
             Learn More
         </Button>
