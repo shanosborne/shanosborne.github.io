@@ -1,8 +1,7 @@
+import { AppBar, Box, Button, Container, IconButton, Menu, MenuItem, Toolbar, Typography } from '@mui/material';
+import { Menu as MenuIcon, Home } from '@mui/icons-material'
 import React from 'react';
 import type { ReactElement } from "react";
-import { AppBar, Box, Button, Container, IconButton, Menu, MenuItem, Toolbar, Typography } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-import HomeIcon from '@mui/icons-material/Home';
 
 interface IPageInfo {
   name: string;
@@ -30,7 +29,7 @@ const Header = (): ReactElement => {
       <Container id="container" maxWidth="xl">
         <Toolbar disableGutters>
           <IconButton component="a" href="#" aria-label="home">
-            <HomeIcon fontSize="large" color="info" />
+            <Home fontSize="large" color="info" />
           </IconButton>
           <Box justifyContent="end" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page: IPageInfo) => (

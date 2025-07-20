@@ -47,8 +47,12 @@ const LinkIcon: React.FC<IExternalLink> = (link): ReactElement => {
 
 const ExternalLinks = (): ReactElement => {
     return <Box>
-        <Typography variant="h3">More Information</Typography>
-        <Typography>You can learn more about me and my work in the following places. You can also reach out with any questions.</Typography>
+        <Typography variant="h3">
+            More Information
+        </Typography>
+        <Typography>
+            You can learn more about me and my work in the following places. You can also reach out with any questions.
+        </Typography>
         <Grid container spacing={2} sx={{ mt: 5 }}>
             {externalLinks.map((link: IExternalLink) => (
                 <Grid size={4} key={link.name} sx={{ textAlign: 'center' }}>
