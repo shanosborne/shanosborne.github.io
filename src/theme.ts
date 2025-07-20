@@ -34,14 +34,14 @@ export const PortfolioTheme = createTheme({
     typography: {
         fontFamily: "Work Sans",
         h1: {
-            fontSize: '5rem',
+            fontSize: 'clamp(3.5rem, calc(9vmin + 1em), 5rem)',
             fontWeight: '400'
         },
         h2: {
-            fontSize: '2.75rem'
+            fontSize: 'clamp(1.75rem, calc(2.5vmin + 1em), 3rem)'
         },
         h3: {
-            fontSize: '3.1rem',
+            fontSize: 'clamp(2rem, calc(4vmin + 1em), 4rem)',
             paddingBottom: '30px',
             color: COLOR_PRIMARY,
         },

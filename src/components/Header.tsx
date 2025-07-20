@@ -26,8 +26,8 @@ const Header = (): ReactElement => {
   };
 
   return (
-    <AppBar>
-      <Container maxWidth="xl">
+    <AppBar position="sticky" sx={{ height: "70px", justifyContent: 'center' }}>
+      <Container id="container" maxWidth="xl">
         <Toolbar disableGutters>
           <IconButton component="a" href="#" aria-label="home">
             <HomeIcon fontSize="large" color="info" />
@@ -38,7 +38,6 @@ const Header = (): ReactElement => {
                 key={page.name}
                 component="a"
                 href={page.link}
-                // onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page.name}

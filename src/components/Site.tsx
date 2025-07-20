@@ -16,13 +16,12 @@ const Site = (): ReactElement => {
                 position: "relative",
                 display: "flex",
                 opacity: 0.3,
-                height: '100vh',
+                height: 'calc(100vh - 70px)',
                 width: '100vw',
-                transform: 'translate(0, 15px)',
             }}
         >
         </Box>
-        <Stack spacing={25} sx={{ px: 20, pb: 25 }}>
+        <Stack spacing={20} sx={{ px: { xs: 5, md: 10, lg: 20 }, pb: 25 }}>
             <div id="home" className="section"><Marquee /></div>
             <div id="about" className="section"><About /></div>
             <div id="portfolio" className="section"><Portfolio /></div>
