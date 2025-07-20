@@ -25,7 +25,7 @@ const portfolioEntries: IPortfolioEntry[] = [
         data processing and sharing solutions to cancer researchers. Researchers can upload data directly from their \
         instruments, run point and click analysis pipelines, view pre-made data visualizations, and share data with \
         collaborators across the country."],
-        image: "public/cirro.png",
+        image: "/cirro.png",
         alt: "Cirro homepage",
         links: [
             {
@@ -44,7 +44,7 @@ const portfolioEntries: IPortfolioEntry[] = [
         body: ["Cirro's documentation website aims to provide a comprehensive guide to both introduce new users to Cirro, and to walk \
             existing users through all the features available to them. The website is a written in Markdown using the MkDocs site generator.",
             'To see specific examples of my writing, check out any of the pages under the "Overview", "Features", or "System" sections.'],
-        image: "public/cirro-docs.png",
+        image: "/cirro-docs.png",
         alt: "FAQ page",
         links: [
             {
@@ -59,7 +59,7 @@ const portfolioEntries: IPortfolioEntry[] = [
         body: ["The KinCyte Explorer Atlas was created in collaboration with a cancer research lab at Fred Hutchinson Cancer Center \
             in order to help communicate complex drug interactions to doctors looking to target specific kinases in their patients. \
             This project culminated in the publishing of this website alongside a journal article. "],
-        image: "public/kincyte.png",
+        image: "/kincyte.png",
         alt: "KinCytE logo",
         links: [
             {
@@ -73,7 +73,7 @@ const portfolioEntries: IPortfolioEntry[] = [
         role: "Creator",
         body: ["This portfolio website was built using Typescript, React, Vite, and Material UI, tested with WAVE Accessibility Tools and MacOs VoiceOver, and hosted using GitHub Pages.",
             "Image source: NASA"],
-        image: "public/logo-grey.png",
+        image: "/logo-grey.png",
         alt: "Portfolio logo",
         links: [
             {
@@ -90,12 +90,12 @@ const portfolioEntries: IPortfolioEntry[] = [
                     to override the default guiding procedure to ensure the operation of the flight software\
                     and the execution of visits during the early stages of commissioning when the 18 mirrors were\
                     not yet aligned."],
-        image: "public/magic-logo.png",
+        image: "/magic-logo.png",
         alt: "MAGIC Logo",
         links: [
             {
                 text: "See a demonstration of the GUI",
-                href: "public/magic-example.mov"
+                href: "/magic-example.mov"
             },
             {
                 text: "See the code",
@@ -110,7 +110,7 @@ const portfolioEntries: IPortfolioEntry[] = [
             community meet accepted software standards. This documentation includes descriptions of 24 best practice \
             standards and information on how to implement them. The goal of the initiative was to make the company's user-facing \
             software robust, maintainable, documented, and ready to support the 10-15 year lifetime of the telescope."],
-        image: "public/standards-page.png",
+        image: "/standards-page.png",
         alt: "Example standard",
         links: [
             {

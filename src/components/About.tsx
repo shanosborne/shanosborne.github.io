@@ -8,7 +8,7 @@ const About = (): ReactElement => {
         <Stack direction={{ xs: "column", sm: "row" }} spacing={3}>
             <Avatar
                 alt="Shannon Osborne"
-                src="public/profile.png"
+                src="/profile.png"
                 sx={{ width: "300px", height: "300px" }}
             >
             </Avatar>

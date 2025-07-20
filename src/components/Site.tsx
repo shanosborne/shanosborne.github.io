@@ -17,7 +17,7 @@ const Site = (): ReactElement => {
             <Stack direction="column" spacing={4}>
                 <Box
                     sx={{
-                        backgroundImage: 'url("public/pm_selfie_compressed.png")',
+                        backgroundImage: 'url("/pm_selfie_compressed.png")',
                         backgroundAttachment: "fixed",
                         backgroundSize: "contain",
                         backgroundPosition: "center",
