@@ -2,8 +2,19 @@
 
 Source code for personal GitHub Pages website; built with Typescript, Vite, React, and Material UI.
 
-View the rendered website here: https://shanosborne.github.io/
+## View Deployed Site
 
-Run locally with: `yarn dev`
+Visit the website at: https://shanosborne.github.io/
 
-Test deployment locally with: `npm run build` and `npm run preview`
+## Running Locally
+
+Run locally with: 
+```
+yarn dev
+```
+
+Test deployment locally with: 
+```
+npm run build
+npm run preview
+```

@@ -90,7 +90,7 @@ const portfolioEntries: IPortfolioEntry[] = [
                     to override the default guiding procedure to ensure the operation of the flight software\
                     and the execution of visits during the early stages of commissioning when the 18 mirrors were\
                     not yet aligned."],
-        image: "/magic-logo.png",
+        image: "/logo-magic.png",
         alt: "MAGIC Logo",
         links: [
             {

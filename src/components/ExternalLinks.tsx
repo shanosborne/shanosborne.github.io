@@ -13,19 +13,19 @@ const externalLinks: IExternalLink[] = [
         name: "GitHub",
         desc: "View code samples",
         href: "https://github.com/shanosborne",
-        icon: "/Github-logo.png"
+        icon: "/logo-github.png"
     },
     {
         name: "LinkedIn",
         desc: "View professional information",
         href: "https://www.linkedin.com/in/shannonbosborne",
-        icon: "/LinkedIn-logo.png"
+        icon: "/logo-linkedin.png"
     },
     {
         name: "ORCiD",
         desc: "View academic papers",
         href: "https://orcid.org/0009-0001-8609-1518",
-        icon: "/ORCID-logo.png"
+        icon: "/logo-orcid.png"
     },
 ]
 
