@@ -2,9 +2,9 @@
 
 Source code for personal GitHub Pages website; built with Typescript, Vite, React, and Material UI.
 
-## View Deployed Site
+## Deployed Site
 
-Visit the website at: https://shanosborne.github.io/
+View the website at: https://shanosborne.github.io/
 
 ## Running Locally
 
