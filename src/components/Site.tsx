@@ -10,9 +10,7 @@ import SkipToMainButton from "./SkipToMainButton";
 const Site = (): ReactElement => {
     return <>
         <SkipToMainButton />
-        <header id="header">
-            <Header />
-        </header>
+        <Header />
         <main id="main" tabIndex={-1}>
             <Stack direction="column" spacing={4}>
                 <Box
@@ -29,11 +27,11 @@ const Site = (): ReactElement => {
                     }}
                 >
                 </Box>
-                <Stack className="section" spacing={20} sx={{ px: { xs: 5, md: 10, lg: 20 }, pb: 25 }}>
-                    <div id="home"><Marquee /></div>
-                    <div id="about"><About /></div>
-                    <div id="portfolio"><Portfolio /></div>
-                    <div id="links"><Links /></div>
+                <Stack spacing={20} sx={{ px: { xs: 5, md: 10, lg: 20 }, pb: 25 }}>
+                    <div id="home" className="section"><Marquee /></div>
+                    <div id="about" className="section"><About /></div>
+                    <div id="portfolio" className="section"><Portfolio /></div>
+                    <div id="links" className="section"><Links /></div>
                 </Stack>
             </Stack>
         </main>

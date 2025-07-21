@@ -25,7 +25,7 @@ const Header = (): ReactElement => {
   };
 
   return (
-    <AppBar position="sticky" sx={{ height: "70px", justifyContent: 'center' }}>
+    <AppBar component="nav" position="sticky" sx={{ height: "70px", justifyContent: 'center' }}>
       <Container id="container" maxWidth="xl">
         <Toolbar disableGutters>
           <IconButton component="a" href="#" aria-label="home">
